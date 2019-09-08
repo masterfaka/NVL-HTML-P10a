@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>formulario</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ </head>
+ <body>
+ 	<header>
+ 		<div class="container">
+ 		<div class="jumbotron">
+ 		
+ 	<h1>Formulario</h1>
+</div></div>
+ </header>
+ 
+ 	<div><h1>Formulario</h1>
+ 		<form method="POST" action="#">
+ 			<fieldset>
+ 			<label for="cp">Codigo postal</label>
+ 			<input type="text" id="cp"><br>
+ 			<label for="satisfaccion">Satisfaccion 1--5</label>
+ 			<select id="satisfaccion" name="opinion">
+ 				<option value="0">-Elije-</option>
+ 				<option value="1">-1-</option>
+ 				<option value="2">-2-</option>
+ 				<option value="3">-3-</option>
+ 				<option value="4">-4-</option>
+ 				<option value="5">-5-</option>
+ 			</select><br>
+ 			<label for="email">Emailuser</label>
+ 			<input type="text" name="email" id="email"><br>
+ 			</fieldset>
+ 			<label for="pts">Puntos positivos</label>
+ 			<textarea id="pts" name="ptsFavor" rows="3"></textarea><br>
+ 			 			<label for="ptsN">Puntos Negativos</label>
+ 			<textarea id="ptsN" name="ptsFavor" rows4></textarea><br>
+ 			<h3>caracteristicas:</h3>
+ 			<p>introduce valor para cada caracteristica:(1-excelente, 2-bueno, 3-regular, 4-malo)</p>	
+ 			 			<label for="cp1">Tiempo entrega</label>
+ 			<input type="number" id="cp1" size="1"><br>
+ 			 			<label for="cp2" >CalidadPrecio</label>
+ 			<input type="number" id="cp2" size="1"><br>
+ 			 			<label for="cp3">calidad entrega</label>
+ 			<input type="number" id="cp3" size="1"><br>
+
+
+ 			<hr>
+ 			<p>Selecciona un valor para evaluar el producto(1-excelente, 2-bueno, 3-regular, 4-malo)</p>
+ 			<label for="satisfaccion1">Tiempo Entrega </label>
+ 			<select id="satisfaccion1" name="opinion1">
+ 				<option value="0">-Elije-</option>
+ 				<option value="1">-1-</option>
+ 				<option value="2">-2-</option>
+ 				<option value="3">-3-</option>
+ 				<option value="4">-4-</option>
+ 
+ 			</select><br>
+ 			 			<label for="satisfaccion2">Calidad-precio </label>
+ 			<select id="satisfaccion2" name="opinion2">
+ 				<option value="0">-Elije-</option>
+ 				<option value="1">-1-</option>
+ 				<option value="2">-2-</option>
+ 				<option value="3">-3-</option>
+ 				<option value="4">-4-</option>
+ 			
+ 			</select><br>
+ 			 			<label for="satisfaccion3">Satisfaccion general </label>
+ 			<select id="satisfaccion3" name="opinion3">
+ 				<option value="0">-Elije-</option>
+ 				<option value="1">-1-</option>
+ 				<option value="2">-2-</option>
+ 				<option value="3">-3-</option>
+ 				<option value="4">-4-</option>
+ 
+ 			</select><br>
+ 			<input type="submit" name="enviar">
+ 		</form>
+ 		
+ 	</div>
+   
+ </body>
+</html>
